@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro - Contact</title>
+    <!-- favicon for the website tab -->
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+    <!-- the page style sheet file -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- main styling sheet file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- render all elemnts normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesone Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <img src="imgs/logo.png" alt="">
+            <nav>
+                <div class="burger-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="Domain.html">DOMAIN</a></li>
+                    <li><a href="About-Us.html">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" placeholder="Search" name="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- landing start -->
+    <div class="landing">
+        <div class="container">
+            <div class="info">
+                <div class="contact">
+                    <p class="phone">
+                        <i class="fas fa-phone-volume"></i>
+                        Call Us: (0) 123 456 789
+                    </p>
+                    <p class="email">
+                        <i class="far fa-envelope"></i>
+                        jetspace@mail.com
+                    </p>
+                </div>
+                <div class="lang">
+                    <select name="Language" id="language">
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main-heading">
+                <h2>CONTACT US</h2>
+                <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin.</p>
+            </div>
+        </div>
+        <div class="bottom-image">
+            <img src="imgs/Clouds-landing.png" alt="">
+            <img src="imgs/Mid-Cloud.png" alt="">
+        </div>
+    </div>
+    <!-- landing end -->
+
+    <!-- office info start -->
+    <div class="office-info">
+        <div class="container">
+            <div class="heading">
+                <h3>Office Info</h3>
+                <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada.
+                Donec sollicitudin molue in ipsum</p>
+            </div>
+            <span class="line-seperator"></span>
+            <div class="info">
+                <div class="box">
+                    <i class="fas fa-home"></i>
+                    <h4>Address:</h4>
+                    <p>Some Street , 20 , NY <br> Some Street , 40 , LA</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-comment"></i>
+                    <h4>Email:</h4>
+                    <p>yourmail@mail.com <br> yourmail@mail.com</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone:</h4>
+                    <p>(00)11-234-567-89 <br> 11-234-567-890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- office info end -->
+
+    <!-- map start -->
+    <div class="map">
+        <div class="container">
+                <div class="heading">
+                <h3>Office Info</h3>
+                <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada.
+                Donec sollicitudin molue in ipsum</p>
+            </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.45013384178!2d-115.31508429457479!3d36.12491845187548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV%2C%20USA!5e0!3m2!1sen!2seg!4v1640115269495!5m2!1sen!2seg"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- map end -->
+
+    <!-- email form start -->
+    <div class="mail-form">
+        <div class="container">
+            <h3>Send Mail to us</h3>
+            <span class="line-seperator"></span>
+            <form action="">
+                <div class="name box">
+                    <input type="text" name="name" placeholder="Your Name Here" autocomplete="off">
+                    <label for="">Name <span>*</span></label>
+                </div>
+                <div class="email box">
+                    <input type="text" name="email" placeholder="Your Email Here" autocomplete="off">
+                    <label for="">Email <span>*</span></label>
+                </div>
+                <div class="message box">
+                    <textarea name="message" placeholder="Your Message Here"></textarea>
+                    <label for="">Message <span>*</span></label>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- email form end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="col">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="Domain.html">DOMAIN</a></li>
+                    <li><a href="About-Us.html">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>We Offer</h3>
+                <ul>
+                    <li>BUSINESS HOSTING</li>
+                    <li>PRIVATE HOSTING</li>
+                </ul>
+                <h3>Service</h3>
+                <ul>
+                    <li>FIRST SERVICE</li>
+                    <li>SECOND SERVICE</li>
+                    <li>FIRST SERVICE</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Our Blog</h3>
+                <h4>Lorem Ipsum sample text</h4>
+                <p>Vivamus suscipit tortor eget felis porttitor
+                    volutpat. Curabitur arcu erat, accumsan id
+                    imperdiet et, porttitor at sem. Curabitur arcu
+                    erat, accumsan.</p>
+                <a href="Blog.html">Read More...</a>
+            </div>
+            <div class="col">
+                <h3>We Are Social</h3>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-google-plus-g"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-skype"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="clouds">
+            <img src="imgs/Clouds-landing.png" alt="">
+            <img src="imgs/Mid-Cloud.png" alt="">
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
